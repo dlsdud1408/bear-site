@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+.nave {
+    display:flex;
+    justify-content: space-around;
+    background-color: white;
+    text-align: center;
+
+}
+.basic{
+    margin: 30px;
+    padding: 30px;
+
+}
+
+.logo{
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.name{
+    margin: 20px;
+    padding: 50px;
+    font-family: 'Nanum Gothic', sans-serif;
+
+    
+}
+.name a{
+    padding: 3px;
+    background-color:burlywood;
+    color: whitesmoke;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.section {
+    margin: 50px;
+    display: flex;
+    justify-content:space-around;
+
+    
+}
+.section img {
+    transform: ease;
+    width: 300px;
+    height: 300px;
+}
+.bear{
+    overflow: hidden;
+    border-radius:70%;
+    border: solid 3px rgb(233, 156, 55);    
+}
+.baby button{
+    border: solid 3px black;
+    border-radius: 12px;
+    background-color:beige;
+    cursor: pointer;
+
+}
+
+.bear:hover img{
+    transform: scale(1.3);
+}
+
+.com{
+    text-align: center;
+}
+.baby button{
+    padding: 20px;
+    margin: 20px;
+    font-size: 40px;
+    font-family: 'Nanum Gothic', sans-serif;
+
+    
+}
+.commend button{
+    padding: 20px;
+    margin: 20px;
+    font-size: 30px;
+    background-color: beige;
+    border: solid 2px gray;
+    border-radius: 12px;
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+.com .letter p{
+    padding: 10px;
+    margin: 20px;
+    font-size: 40px;
+    text-decoration: underline dotted green;
+    font-family: 'Nanum Gothic', sans-serif;
+    line-height: 60px
+
+}
